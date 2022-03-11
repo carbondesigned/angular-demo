@@ -1,0 +1,6 @@
+<footer>
+  <p>Copyright &copy; 2021</p>
+  <a routerLink="{{ getRoute() === '/' ? '/about' : '/' }}">{{
+    getRoute() === "/" ? "See About" : "Go Home"
+  }}</a>
+</footer>
